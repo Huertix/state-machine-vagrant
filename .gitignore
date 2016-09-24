@@ -1,0 +1,14 @@
+/state-machine-kata/web/bundles/
+/state-machine-kata/app/bootstrap.php.cache
+/state-machine-kata/app/cache/*
+/state-machine-kata/app/config/parameters.yml
+/state-machine-kata/app/logs/*
+/state-machine-kata!app/cache/.gitkeep
+/state-machine-kata!app/logs/.gitkeep
+/state-machine-kata/app/phpunit.xml
+/state-machine-kata/build/
+/state-machine-kata/vendor/
+/state-machine-kata/bin/
+/state-machine-kata/.idea/
+/.vagrant/
+/.idea/
