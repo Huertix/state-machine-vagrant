@@ -21,8 +21,7 @@ class HiCommand extends ContainerAwareCommand
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-
-        if (strtolower($input->getArgument('name')) == "carlos  ") {
+        if (strtolower($input->getArgument('name')) == "carlos") {
             $output->writeln('Hallo Knallkopf.');
         } elseif ($input->getArgument('name')) {
             $output->writeln('Que paso?? '.$input->getArgument('name').' el sabiondo!!!');
@@ -30,5 +29,6 @@ class HiCommand extends ContainerAwareCommand
             $output->writeln('Hallo.');
         }
     }
+
 
 }
